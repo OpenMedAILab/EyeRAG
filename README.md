@@ -112,26 +112,11 @@ The system is configured via the `config.py` file and environment variables in t
 - RAG methodology selection
 - Medical knowledge base source
 
-## Contributing
-
-We welcome contributions to EyeRAG! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Citation
-
-If you use EyeRAG in your research, please cite:
-
-```
-@article{eyerag2025,
-  title={EyeRAG: Advanced Retrieval-Augmented Generation for Ophthalmology Knowledge Bases},
-  author={EyeRAG Contributors},
-  journal={Open Source Software},
-  year={2025}
-}
-```
 
 ## Acknowledgments
 

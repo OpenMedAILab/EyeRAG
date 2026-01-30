@@ -147,3 +147,8 @@ results/
 back/
 to_del/
 tmp/
+
+# ============================================
+# Pinecone-related files (not for public release)
+# ============================================
+eye_rag/rag/pinecone/
