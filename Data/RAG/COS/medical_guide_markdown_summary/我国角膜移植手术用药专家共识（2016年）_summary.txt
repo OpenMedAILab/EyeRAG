@@ -1,0 +1,12 @@
+The "Expert Consensus on Medications for Corneal Transplant Surgery in China (2016)" provides guidelines to minimize complications in corneal transplant procedures. Key recommendations include:
+
+1. **Antibiotics**: Use broad-spectrum topical antibiotics preoperatively for 3 days and postoperatively for 2-4 weeks.
+2. **Infection Management**: Specific treatments for viral, bacterial, fungal, and amoebic infections are outlined.
+3. **Intraocular Pressure**: Medications to manage intraocular pressure are essential, especially in high-risk cases.
+4. **Corticosteroids**: Critical for controlling inflammation and preventing immune rejection post-surgery.
+5. **Immunosuppressants**: Cyclosporine A and tacrolimus are recommended for high-risk patients to prevent rejection.
+6. **NSAIDs**: Advised for pain relief and inflammation control in the early postoperative period.
+7. **Artificial Tears**: Recommended to promote corneal epithelial healing.
+8. **Specific Protocols**: Detailed medication protocols for different transplant types and immune rejection management.
+
+The consensus aims to standardize medication practices to enhance surgical outcomes and graft survival.

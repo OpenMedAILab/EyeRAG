@@ -13,7 +13,7 @@ from config import (
     DEFAULT_LIGHTRAG_MODE,
 )
 from eye_rag.qa.patient_data import get_clinical_data_for_query
-from eye_rag.eye_rag_utils import get_temperature_from_answer_type
+from eye_rag.utils import get_temperature_from_answer_type
 from eye_rag.graph_node import execute_agent_graph
 
 # Import graphs for each answer type

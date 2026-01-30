@@ -1,0 +1,11 @@
+The "Expert Consensus on Clinical Diagnosis and Treatment of Infectious Keratitis" (2011) by the Chinese Medical Association addresses four main types of keratitis: 
+
+1. **Fungal Keratitis**: Caused mainly by Fusarium and Aspergillus, it presents with irritation and blurred vision. Diagnosis involves clinical signs and lab tests, while treatment includes antifungal medications and possible surgery.
+
+2. **Herpes Simplex Keratitis (HSK)**: The most common form, caused by HSV-1, with symptoms like conjunctivitis and corneal lesions. Diagnosis is based on clinical history, and treatment includes antivirals and surgery for severe cases.
+
+3. **Bacterial Keratitis**: Often due to Pseudomonas aeruginosa, it features rapid pain and corneal ulcers. Diagnosis relies on clinical signs and cultures, with treatment involving broad-spectrum antibiotics and potential surgery.
+
+4. **Acanthamoeba Keratitis**: Linked to contact lens use, it causes severe pain and corneal lesions. Diagnosis is through clinical signs and lab tests, with treatment focusing on aggressive anti-Acanthamoeba medications and surgery as a last resort.
+
+The consensus highlights the need for early diagnosis and tailored treatments to prevent vision loss.

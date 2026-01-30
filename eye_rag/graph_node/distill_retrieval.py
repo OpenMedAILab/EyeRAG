@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 from langchain.prompts import PromptTemplate
 
 from eye_rag.llm import get_chat_llm
-from eye_rag.eye_rag_utils import wrap_context
+from eye_rag.utils import wrap_context
 from config import NUM_RECORD_FOR_WHOLE_CONTEXT
 
 logger = logging.getLogger(__name__)

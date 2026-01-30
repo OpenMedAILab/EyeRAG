@@ -1,0 +1,11 @@
+The "China Retinoblastoma Diagnosis and Treatment Guidelines (2019)" provide standardized practices for diagnosing and treating retinoblastoma (RB), the most common intraocular cancer in infants. Developed by expert groups within the Chinese Medical Association, the guidelines highlight key aspects such as:
+
+1. **Epidemiology**: RB represents 2-4% of childhood cancers, with around 9,000 global cases annually, including 1,100 in China, primarily affecting children under five.
+2. **Pathogenesis**: RB can be hereditary (35-45%) or non-hereditary (55-65%), often linked to RB1 gene mutations.
+3. **Diagnosis**: Symptoms include leukocoria and strabismus, with diagnosis involving eye exams, imaging, and genetic testing.
+4. **Staging**: International staging systems (IIRC and TNM) are used to classify RB severity, guiding treatment decisions.
+5. **Treatment**: Options range from eye-preserving therapies to enucleation for advanced cases, focusing on life and vision preservation.
+6. **Follow-up**: Regular monitoring is crucial for patients receiving eye-preserving treatments.
+7. **Quality of Life**: Emphasizes the importance of psychological and social support alongside medical care.
+
+These guidelines aim to enhance RB management in China, improving outcomes for affected children.

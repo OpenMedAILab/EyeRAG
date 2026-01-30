@@ -1,0 +1,9 @@
+The "Expert Consensus on the Prevention and Treatment of Diabetic Retinopathy (DR)" by the Chinese Diabetes Society addresses DR as a major complication of diabetes and a leading cause of blindness. It calls for standardized guidelines for screening, diagnosis, and management, emphasizing collaboration between endocrinologists and ophthalmologists. Key points include:
+
+1. **Epidemiology**: DR affects 23% of diabetic patients in mainland China, with risk factors like hyperglycemia and hypertension.
+2. **Screening and Referral**: Early detection through non-mydriatic fundus photography is crucial, with guidelines for referrals based on DR severity.
+3. **Clinical Presentation and Diagnosis**: DR includes diabetic macular edema and vascular changes, with established international grading standards.
+4. **Prevention and Treatment**: Managing blood glucose, pressure, and lipids is vital, along with treatments like laser therapy and anti-VEGF injections.
+5. **Collaboration and Future Directions**: The consensus promotes a team approach and the use of technology, such as telemedicine and AI, to improve DR management in China.
+
+Overall, it emphasizes the need for early detection and comprehensive care to enhance patients' quality of life.

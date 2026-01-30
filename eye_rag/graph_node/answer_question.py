@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field
 from langchain.prompts import PromptTemplate
 from langchain_core.messages import SystemMessage, HumanMessage
 
-from eye_rag.eye_rag_utils import wrap_context, load_cache_file, save_cache_file
+from eye_rag.utils import wrap_context, load_cache_file, save_cache_file
 from eye_rag.llm import get_chat_llm
 
 # ============================================

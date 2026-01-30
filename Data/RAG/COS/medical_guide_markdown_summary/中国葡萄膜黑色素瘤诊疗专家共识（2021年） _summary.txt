@@ -1,0 +1,13 @@
+The "Chinese Expert Consensus on Diagnosis and Treatment of Uveal Melanoma" (2021) provides standardized guidelines for managing uveal melanoma (UM), the most common primary intraocular cancer in adults. Developed by Chinese medical experts, the consensus highlights key aspects such as:
+
+1. **Epidemiology**: UM represents 79-81% of ocular melanomas, with a global incidence of 0.0001% to 0.0009%, and a high risk of metastasis, particularly to the liver.
+   
+2. **Diagnosis**: Symptoms depend on tumor location, with diagnosis requiring comprehensive eye exams, imaging, and possibly biopsy.
+
+3. **Staging**: Utilizes COMS and AJCC systems, focusing on tumor size for prognosis and treatment decisions.
+
+4. **Treatment**: Options include plaque radiotherapy, enucleation, and other therapies, tailored to individual patient needs.
+
+5. **Follow-up**: Regular monitoring for recurrence and metastasis is essential.
+
+The consensus aims to enhance UM management in China, aligning local practices with international standards.

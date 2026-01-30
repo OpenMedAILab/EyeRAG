@@ -1,0 +1,14 @@
+The "Expert Consensus on Clinical Diagnosis and Treatment of Laser Corneal Refractive Surgery" (2015) by the Chinese Ophthalmological Society provides guidelines for laser corneal refractive surgery in China, categorizing procedures into lamellar (LASIK) and surface surgeries (PRK, LASEK, Epi-LASIK). 
+
+**Lamellar Surgery (LASIK):** 
+- **Indications:** Patients over 18 with stable refractive errors (myopia ≤ -12.00 D, astigmatism ≤ 6.00 D).
+- **Contraindications:** Conditions like keratoconus, active infections, and insufficient corneal thickness.
+- **Assessment:** Comprehensive eye evaluations and informed consent regarding risks and benefits.
+- **Procedure:** Involves creating a corneal flap and reshaping the cornea with a laser.
+
+**Surface Surgery (PRK, LASEK, Epi-LASIK):** 
+- **Indications:** Similar to LASIK, suitable for patients with thinner corneas.
+- **Contraindications:** Similar to LASIK, with additional considerations for corneal surface conditions.
+- **Procedure:** Involves removing the corneal epithelium and reshaping the cornea, followed by protective measures.
+
+**Postoperative Care:** Both procedures require monitoring for complications and emphasize patient education and adherence to guidelines for safety and efficacy.

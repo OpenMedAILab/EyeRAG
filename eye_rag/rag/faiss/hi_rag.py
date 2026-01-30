@@ -35,7 +35,7 @@ from langchain_openai import ChatOpenAI
 from tqdm.auto import tqdm
 
 from config import EXP_CACHE_DIR, RAG_MD_DIR, RAG_MD_TMP_DATA_PKL_PATH, RAG_FAISS_INDEX_DIR
-from eye_rag.eye_rag_utils import get_catch_file_path, load_cache_file, save_cache_file
+from eye_rag.utils import get_catch_file_path, load_cache_file, save_cache_file
 from eye_rag.rag.faiss.naive_rag import (
     FAISSRAGMedicalGuide,
     DEFAULT_EMBED_MODEL,

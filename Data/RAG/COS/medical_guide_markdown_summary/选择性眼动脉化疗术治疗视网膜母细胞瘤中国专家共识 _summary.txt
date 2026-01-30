@@ -1,0 +1,11 @@
+The "Chinese Expert Consensus on Selective Ophthalmic Artery Chemotherapy for Retinoblastoma" provides guidelines for diagnosing and treating retinoblastoma, a retinal tumor in infants. It advocates for a multidisciplinary approach and recommends selective ophthalmic artery infusion (SOAI) for intermediate to advanced cases (IIRC stages B, C, D, E). Key points include:
+
+1. **Etiology**: 40% hereditary, 60% non-hereditary due to retinal cell mutations.
+2. **Diagnosis**: Symptoms include leukocoria, strabismus, and vision loss, with imaging support from ultrasound and MRI.
+3. **Staging**: IIRC classification ranges from low-risk (Group A) to very high-risk (Group E).
+4. **Pathology**: Tumors are differentiated or undifferentiated, influencing treatment response.
+5. **Procedure Preparation**: Requires thorough preoperative assessments.
+6. **Intervention**: Involves catheterization of the ophthalmic artery for localized chemotherapy.
+7. **Postoperative Care**: Focuses on monitoring complications and recovery.
+
+Regular follow-up is essential for assessing treatment efficacy and managing side effects.

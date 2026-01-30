@@ -1,0 +1,8 @@
+The "Expert Consensus on Staging Public Health Strategies for Myopia Prevention and Control in Children and Adolescents" (2022) addresses the increasing prevalence of myopia in China, proposing a four-stage framework for public health intervention: 
+
+1. **Myopia Prodromal Stage**: Focus on early interventions for children at high risk of developing myopia, such as promoting outdoor activities and reducing near work.
+2. **Myopia Development Stage**: Implement comprehensive measures for children with diagnosed myopia progressing over 0.50 D per year, including outdoor activities and corrective treatments.
+3. **High Myopia Stage**: Monitor children with significant refractive errors or axial length, emphasizing preventive measures to mitigate complications.
+4. **Pathological Myopia Stage**: Involves severe ocular changes requiring close monitoring and possible surgical intervention.
+
+The consensus highlights the need for early risk assessment and tailored strategies to manage myopia effectively and reduce its public health impact among children and adolescents in China.

@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 import pandas as pd
 
-from eye_rag.eye_rag_utils import load_csv
+from eye_rag.utils import load_csv
 
 TOTAL_NUM_QUESTION = 270
 NUM_DISEASE = 3

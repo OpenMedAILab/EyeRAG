@@ -1,0 +1,109 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eye-rag"
+version = "0.1.0"
+description = "EyeRAG: A Retrieval-Augmented Generation System for Ophthalmology"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "EyeRAG Team"}
+]
+keywords = [
+    "RAG",
+    "retrieval-augmented-generation",
+    "ophthalmology",
+    "medical-ai",
+    "knowledge-graph",
+    "LLM"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+
+dependencies = [
+    "openai>=1.0.0",
+    "anthropic>=0.18.0",
+    "google-generativeai>=0.5.0",
+    "langchain>=0.1.0",
+    "langchain-core>=0.1.0",
+    "langchain-openai>=0.0.5",
+    "langchain-community>=0.0.20",
+    "langgraph>=0.0.20",
+    "pinecone-client>=3.0.0",
+    "faiss-cpu>=1.7.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scipy>=1.10.0",
+    "networkx>=3.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "tenacity>=8.2.0",
+    "tqdm>=4.65.0",
+    "rank-bm25>=0.2.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "mypy>=1.0.0",
+    "ruff>=0.1.0",
+]
+api = [
+    "fastapi>=0.109.0",
+    "uvicorn>=0.27.0",
+]
+graph = [
+    "neo4j>=5.0.0",
+    "chromadb>=0.4.0",
+    "qdrant-client>=1.7.0",
+]
+all = [
+    "eye-rag[dev,api,graph]",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/EyeRAG"
+Documentation = "https://github.com/your-username/EyeRAG#readme"
+Repository = "https://github.com/your-username/EyeRAG"
+Issues = "https://github.com/your-username/EyeRAG/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["eye_rag*", "lightrag*"]
+
+[tool.black]
+line-length = 100
+target-version = ["py39", "py310", "py311", "py312"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true

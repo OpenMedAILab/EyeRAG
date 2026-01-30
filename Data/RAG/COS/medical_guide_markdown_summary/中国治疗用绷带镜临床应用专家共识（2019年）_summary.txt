@@ -1,0 +1,10 @@
+The "Expert Consensus on the Clinical Application of Therapeutic Bandage Contact Lenses in China" (2019) provides guidelines for the use of therapeutic bandage contact lenses (BCLs) in clinical practice, developed by the Chinese Health Management Association. Key points include:
+
+1. **Mechanism**: BCLs relieve irritation, promote healing, maintain moisture, improve optical quality, and facilitate drug delivery.
+2. **Parameters**: Optimal BCLs should have high oxygen permeability (Dk/t > 87), 24%-50% water content, and a diameter of 14.0-14.5 mm.
+3. **Indications**: Suitable for conditions like bullous keratopathy, dry eye, neurotrophic keratopathy, and post-surgical care.
+4. **Contraindications**: Not recommended for active infections or patients unable to follow up.
+5. **Clinical Use**: Effective in post-operative care and managing ocular surface diseases.
+6. **Guidelines**: Emphasizes proper fitting, follow-up, and patient education to reduce risks.
+
+This consensus serves as a reference for clinicians to ensure safe and effective BCL use in treating ocular surface diseases.

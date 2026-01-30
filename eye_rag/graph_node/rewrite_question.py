@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field
 from langchain.prompts import PromptTemplate
 
 from config import EXP_CACHE_DIR
-from eye_rag.eye_rag_utils import generate_key, load_json_data, save_dict_to_json
+from eye_rag.utils import generate_key, load_json_data, save_dict_to_json
 
 from eye_rag.llm import get_chat_llm
 

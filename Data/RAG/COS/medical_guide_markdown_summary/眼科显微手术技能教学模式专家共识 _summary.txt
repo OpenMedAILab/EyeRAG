@@ -1,0 +1,8 @@
+The "Expert Consensus on the Teaching Model of Skills Training in Ophthalmic Microsurgery" presents a structured four-stage approach for training medical students and young physicians in ophthalmic microsurgery. The stages include: 
+
+1. **Basic Skills (I)** - Fundamental techniques using simulation tools.
+2. **Advanced Skills (II)** - Complex procedures like suturing through simulations and animal models.
+3. **Pre-Clinical Specialized Training (III)** - Preparation for specific surgeries using simulators and animal eyes.
+4. **Clinical Practice (IV)** - Hands-on training in clinical settings focusing on patient management.
+
+The model combines theoretical and practical methods, including online resources and assessments, to standardize training, enhance learning efficiency, and improve the quality of ophthalmic microsurgery education.

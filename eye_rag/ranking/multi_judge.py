@@ -4,7 +4,7 @@ import random
 from collections import Counter, defaultdict
 
 from eye_rag import LLM_ANSWER_TYPE
-from eye_rag.eye_rag_utils import save_dict_to_json
+from eye_rag.utils import save_dict_to_json
 from eye_rag.handle_results.cal_p import calculate_friedman_p_value
 from eye_rag.ranking.llm_as_a_judge import JudgeBase, SingleJudgerRanking, members_to_group_ranking_data, \
     split_participant_name_split

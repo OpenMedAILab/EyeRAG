@@ -17,7 +17,7 @@ from config import (
     DEFAULT_CHUNK_SEARCH_TOP_K,
     DEFAULT_KG_SEARCH_TOP_K,
 )
-from eye_rag.eye_rag_utils import get_catch_file_path, load_cache_file, save_cache_file
+from eye_rag.utils import get_catch_file_path, load_cache_file, save_cache_file
 from eye_rag.graph_node._state import EyeRAGGraphState
 
 from lightrag.llm.openai import gpt_4o_mini_complete, openai_embed

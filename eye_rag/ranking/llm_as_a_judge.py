@@ -26,7 +26,7 @@ from eye_rag.ranking.rank import (
     points_to_score,
     SCORE_ITEM_NAMES,
 )
-from eye_rag.eye_rag_utils import save_dict_to_json
+from eye_rag.utils import save_dict_to_json
 
 # ============================================
 # Constants

@@ -1,0 +1,10 @@
+The "Expert Consensus on TransPRK in China (2019)" provides guidelines for the Trans-epithelial Photorefractive Keratectomy (TransPRK) procedure, aiming to standardize practices among ophthalmologists in China for improved safety and quality. Key points include:
+
+1. **Indications**: Suitable for patients over 18 with stable refractive errors and specific anatomical conditions, including enhancement surgeries.
+2. **Contraindications**: Absolute contraindications include severe ocular surface diseases and uncontrolled systemic diseases; relative contraindications involve significant dry eye.
+3. **Preoperative Evaluation**: Comprehensive assessments are necessary before surgery.
+4. **Informed Consent**: Patients must be informed of risks, benefits, and alternatives.
+5. **Perioperative Management**: Involves preoperative medications, surgical techniques, and postoperative care.
+6. **Complications**: Potential issues include undercorrection, overcorrection, haze, and delayed healing.
+
+The consensus aims to enhance the safety and effectiveness of TransPRK in clinical practice.
