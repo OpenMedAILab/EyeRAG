@@ -1,12 +1,17 @@
 # EyeRAG
 
-EyeRAG is an advanced Retrieval-Augmented Generation (RAG) system designed specifically for ophthalmology knowledge bases. It combines multiple RAG approaches including naive RAG, hypothetical document embeddings, hierarchical indexing, and LightRAG to provide comprehensive and accurate responses to medical queries.
+EyeRAG is an advanced Retrieval-Augmented Generation (RAG) system designed specifically for ophthalmology knowledge bases.
+It enables clinical dialogue through multiple RAG approaches including naive RAG, hypothetical document embeddings,
+hierarchical indexing, and LightRAG. The system also provides evaluation and ranking capabilities to assess the quality
+of different RAG methodologies for clinical applications.
 
 ## Features
 
 - Multiple RAG methodologies: Naive RAG, Hypothetical Document Embeddings, Hierarchical Indexing, and LightRAG
+- Clinical dialogue capabilities for ophthalmology applications
+- Performance evaluation and ranking of different RAG methodologies
 - Support for various LLM providers (OpenAI, Anthropic, Google Gemini, XAI, DeepSeek)
-- Integration with vector databases (FAISS, Pinecone)
+- Integration with vector databases (FAISS)
 - Medical knowledge base focused on ophthalmology
 - Graph-based knowledge representation
 - Hybrid search capabilities combining chunk-based and knowledge graph retrieval
@@ -31,20 +36,39 @@ cp .env.example .env
 
 Edit the `.env` file to add your API keys for the LLM providers you plan to use.
 
+4. Download or prepare your medical guide documents in the `Data/RAG/COS/medical_guide_markdown/` directory.
+
 ## Usage
 
-### Basic Usage
+### Initial Setup
 
-```python
-from eye_rag import EyeRAG
+First, construct the medical guide knowledge base:
 
-# Initialize the system with your configuration
-eye_rag = EyeRAG(config_path="config.py")
-
-# Run queries against the knowledge base
-response = eye_rag.query("What are the treatment options for glaucoma?")
-print(response)
+```bash
+python eye_rag/tools/construct_medical_guide_db.py
 ```
+
+This will create the necessary knowledge graphs and indexes from the medical guide documents.
+
+### Clinical Dialogue and Evaluation
+
+After constructing the knowledge base, you can run clinical dialogues using different RAG methods:
+
+```bash
+python eye_rag/tools/clinical_dialogue.py
+```
+
+This will allow you to conduct clinical conversations with the system using various RAG methodologies.
+
+### Performance Evaluation
+
+To evaluate and rank the performance of different RAG methods:
+
+```bash
+python eye_rag/ranking/rank.py
+```
+
+This will compare the quality of responses from different approaches and provide rankings based on evaluation metrics.
 
 ### Available RAG Methods
 
@@ -61,14 +85,19 @@ EyeRAG/
 │   ├── graph/               # Graph-based RAG implementations
 │   ├── graph_node/          # Individual graph nodes
 │   ├── handle_results/      # Result processing utilities
+│   ├── llm.py               # LLM integration
 │   ├── qa/                  # Question answering components
 │   ├── rag/                 # RAG implementations
 │   ├── ranking/             # Ranking algorithms
 │   └── tools/               # Utility tools
+│       ├── construct_medical_guide_db.py  # Build medical guide knowledge base
+│       └── clinical_dialogue.py          # Clinical dialogue interface
 ├── lightrag/                # LightRAG implementation
 ├── Data/                    # Medical knowledge base data
 │   └── RAG/
 │       └── COS/             # Clinical ophthalmology guides
+│           └── medical_guide_markdown/   # Medical guide documents
+├── eye_rag/ranking/rank.py  # Performance evaluation and ranking
 ├── config.py                # Configuration settings
 ├── requirements.txt         # Dependencies
 └── README.md                # This file
@@ -107,3 +136,4 @@ If you use EyeRAG in your research, please cite:
 ## Acknowledgments
 
 This project builds upon the LightRAG framework and incorporates various state-of-the-art techniques in RAG systems for domain-specific knowledge bases.
+The system is designed to enable clinical dialogue and provide evaluation capabilities for comparing different RAG methodologies in ophthalmology applications.
