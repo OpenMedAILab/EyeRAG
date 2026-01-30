@@ -8,24 +8,18 @@ _env_path = _project_root / ".env"
 load_dotenv(_env_path, override=True)
 
 # API Keys
+# OpenRouter API (Primary - unified access to multiple LLMs)
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
+
+# DeepSeek API (Optional - for direct DeepSeek access)
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
-OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
-CLOSEAI_API_KEY = os.getenv("CLOSEAI_API_KEY", "")
-CLAUDE_BASE_URL = os.getenv("CLAUDE_BASE_URL", "https://api.anthropic.com")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-XAI_API_KEY = os.getenv("XAI_API_KEY", "")
-LLAMA_API_KEY = os.getenv("LLAMA_API_KEY", "")
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY", "")
 
 # Set environment variables for compatibility with code using os.environ directly
 _env_vars = {
+    "OPENROUTER_API_KEY": OPENROUTER_API_KEY,
+    "OPENROUTER_BASE_URL": OPENROUTER_BASE_URL,
     "DEEPSEEK_API_KEY": DEEPSEEK_API_KEY,
-    "OPENAI_API_KEY": OPENAI_API_KEY,
-    "OPENAI_API_BASE": OPENAI_BASE_URL,
-    "GEMINI_API_KEY": GEMINI_API_KEY,
-    "XAI_API_KEY": XAI_API_KEY,
-    "PINECONE_API_KEY": PINECONE_API_KEY,
 }
 for key, value in _env_vars.items():
     if value:

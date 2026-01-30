@@ -24,9 +24,9 @@ kv_store_*.json
 Data/*
 !Data/RAG/
 !Data/RAG/COS/
+!Data/RAG/AAO_PPP/
 !Data/patient_data.xlsx
 Data/RAG/COS/back/
-Data/RAG/AAO_PPP/
 .~lock.patient*
 
 # ============================================

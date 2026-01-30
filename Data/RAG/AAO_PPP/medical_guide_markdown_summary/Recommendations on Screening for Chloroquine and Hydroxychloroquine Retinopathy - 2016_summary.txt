@@ -1,0 +1,9 @@
+The American Academy of Ophthalmology has updated its guidelines for screening retinopathy related to chloroquine (CQ) and hydroxychloroquine (HCQ) based on new data. Key recommendations include: 
+
+1. **Retinopathy Patterns**: Damage is typically parafoveal, with some Asian patients showing extramacular effects.
+2. **Dosage Guidelines**: HCQ should be limited to ≤5.0 mg/kg and CQ to ≤2.3 mg/kg of real weight.
+3. **Toxicity Risk**: The risk of retinopathy rises with higher doses and prolonged use, reaching 20% after 20 years of HCQ.
+4. **Screening Protocol**: A baseline fundus exam is advised within the first year, with annual screenings after 5 years for patients on safe doses without major risk factors, using tests like automated visual fields and SD OCT.
+5. **Counseling**: Patients must be educated on toxicity risks, proper dosing, and the necessity of regular screenings, as retinopathy is irreversible.
+
+The guidelines stress the importance of monitoring and individualized risk assessment to mitigate retinopathy risks in patients on these medications.
