@@ -1,0 +1,26 @@
+{
+    "question_id": "2",
+    "context": [
+        {
+            "id": 0,
+            "source": "中国青光眼指南（2020年）",
+            "content": "## 四、高眼压症\n\n多次测量眼压的结果均超过正常上限，但未发现青光眼性视神经形态改变和（或）视野损伤，房角为宽角，并排除继发性青光眼或角膜较厚、检测技术等其他因素导致的假性高眼压，可诊断为高眼压症［57］ 。需定期随访眼底视盘、RNFL厚度和视野。眼压 ${ > } 2 4 ~ \\mathrm { m m H g }$ 具有较高危险性，建议给予降眼压治疗［Ⅰ，B］。对于高眼压症患者，有条件的医院可以进行无创眼‐颅压力梯度测量［27‐29］ ，若眼‐颅压力梯度在正常范围内，可不予降眼压治疗，随访观察。\n\n第四部分 PACG与原发性房角关闭（primaryangle closure，PAC）\n\n## 一、定义\n\n房角关闭导致急性或慢性眼压升高，伴有或不伴有青光眼性视盘改变和视野损伤的一类青光眼。"
+        },
+        {
+            "id": 1,
+            "source": "高度近视中西医结合诊疗指南（下）",
+            "content": "## 7 预防调护\n\n### 7.1 概述\n\n避免单纯性高度近视发展为病理性近视，做到病理性近视及其并发症的早诊断与早治疗。因此，在日常生活中应在多个方面注意对眼睛的保护。\n\n### 7.2 健康宣传教育\n\n积极治疗全身疾病及其他眼病。特别是青少年患有全身发热疾病期间，更应保护视力，注意用眼卫生。孕期要预防感染、避免中毒、过敏及其他非正常刺激[20]。\n\n病理性近视的发生有遗传异质性，父母双方均为病理性近视者，其子女发生病理性近视的概率明显高于父母没有或仅有一方有病理性近视者。因此可通过遗传咨询预防病理性近视。\n\n告知患者高度近视容易并发黄斑出血、CNV、黄斑萎缩、黄斑劈裂、视网膜脱离等眼底病变，嘱咐高度近视患者必须避免或减少眼部碰撞和激烈运动，如跳水、蹦极、过山车、潜水等运动[21]。\n\n### 7.3 生活起居\n\n避免用眼过劳、采用“ ”法则、即近距离用眼 $2 0 ~ \\mathrm { m i n }$ 后要远眺 $6 ~ \\mathrm { m } ( 2 0$ 英尺）外至少 $2 0 ~ \\mathrm { s }$ ；严格控制使用电子产品的时间[22]。\n\n养成良好的用眼习惯，不在震荡、晃动的条件下或黄昏时阅读。照明要求充分与标准，光线不要过暗或过强。电子产品荧光屏幕亮度与色调选择要适中，图像不清时应及时调整、或立即转移视线。保持正确的阅读姿势，读写距离保持在1尺以上[22]。\n\n保证充足睡眠、劳逸结合、平衡饮食、合理营养。生活要有规律，保持良好的情绪状态。注意预防各种异常刺激及危险因素，如有机磷慢性中毒等。尽量避免物像在视网膜上形成朦胧影，如早期矫正角膜散光[22]。\n\n积极参加户外活动，加强体育锻炼，增强体质，如游泳、跑步等[22]。"
+        },
+        {
+            "id": 2,
+            "source": "中国青光眼指南（2020年）",
+            "content": "### （二）创造一切条件行PRP\n\n针对以糖尿病视网膜病变、缺血型视网膜中央静脉阻塞为病因的 ，应采取 和抗 治疗［102，107‐108］ 。 是 治 疗 视 网 膜 缺 血 的 根 本方法［109‐112］ 。\n\n### （三）强调全身病治疗和眼部疾病的后续治疗\n\n积极防治相关的全身病和眼部疾病，如加强血糖浓度、血脂浓度、血压的控制。\n\n第七部分 随访与管理\n\n降眼压对于治疗各阶段 及降低高眼压症向 POAG 的转化率均有明确益处［113‐120］［Ⅰ，A］。将眼压控制在目标眼压水平是青光眼治疗和随访的具体目标，也是青光眼医师日常工作的重点［120‐122］ 。"
+        }
+    ],
+    "query_top_k": 10,
+    "rerank_top_n": 3,
+    "query": "Based on your clinical data, I can provide you with specific lifestyle recommendations to help manage your eye condition and prevent further damage. You were diagnosed with **left eye primary acute angle-closure glaucoma** and **left eye senile cataract**, which require careful management.\n\n**Key Lifestyle Recommendations:**\n\n1. **Medication Adherence**: While not a lifestyle change per se, this is the most critical aspect of preventing further damage. You must take all prescribed glaucoma medications exactly as directed to control your intraocular pressure (IOP). Missing doses can lead to pressure spikes that damage your optic nerve.\n\n2. **Regular Follow-up Appointments**: Your condition requires close monitoring. Attend all scheduled ophthalmology appointments for IOP checks, visual field testing, and optic nerve evaluation. These appointments are essential for detecting any progression early.\n\n3. **Avoid Triggers for Angle Closure**: Since you have angle-closure glaucoma, you should:\n   - Avoid medications that can dilate your pupils (like certain cold medicines, antidepressants, or motion sickness drugs)\n   - Inform all healthcare providers about your glaucoma diagnosis before taking any new medications\n   - Be cautious with dim lighting conditions that might cause pupil dilation\n\n4. **Eye Protection**: Wear protective eyewear during activities that could cause eye trauma, as injury could worsen your glaucoma or cataract.\n\n5. **Healthy Lifestyle Habits**:\n   - Maintain a balanced diet rich in antioxidants (fruits, vegetables)\n   - Stay hydrated but avoid drinking large amounts of fluid at once, as this can temporarily increase eye pressure\n   - Engage in regular, moderate exercise (with your doctor's approval), as this may help lower IOP\n   - Avoid inverted yoga positions or head-down positions that could increase eye pressure\n\n6. **Smoking Cessation**: If you smoke, quitting is crucial as smoking can worsen eye conditions and interfere with healing.\n\n7. **Stress Management**: Since stress can potentially affect eye pressure, practice relaxation techniques like deep breathing, meditation, or gentle walks.\n\n8. **Proper Lighting**: Ensure adequate lighting when reading or doing close work to reduce eye strain.\n\n**Important Note**: Your acute angle-closure glaucoma episode required hospitalization, indicating this is a serious condition. The most critical preventive measure is strict adherence to your treatment plan and regular monitoring by your ophthalmologist. Any sudden return of symptoms like eye pain, redness, blurred vision, halos around lights, nausea, or headache requires immediate medical attention.\n\nThese lifestyle adjustments, combined with your medical treatment, will help protect your remaining vision and prevent further damage to your eyes.",
+    "index_name": "md-medical-guide-faiss-chunks",
+    "rerank_model": "bm25",
+    "embed_model": "openai:text-embedding-3-small"
+}

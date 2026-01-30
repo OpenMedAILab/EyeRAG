@@ -1,0 +1,16 @@
+{
+    "clinical_data": {
+        "Age": 79.0,
+        "Gender": "Female",
+        "AdmissionDate": "2024-06-30T00:00:00",
+        "DischargeDate": "2024-07-05T00:00:00",
+        "AdmissionDiagnosis": "1. Left eye primary acute angle-closure glaucoma; 2. Left eye senile cataract",
+        "DischargeDiagnosis": "1. Left eye primary acute angle-closure glaucoma; 2. Left eye senile cataract",
+        "ClinicalHistory": "Chief Complaint: Sudden onset of distending pain in the left eye accompanied by blurred vision for 4 days.\nHistory of Present Illness: Four days ago, the patient experienced sudden onset of distending pain in the left eye without obvious inducement, accompanied by a sharp decline in vision. Both distant and near vision were unclear, accompanied by irritative symptoms such as eye redness, photophobia, and tearing, as well as ipsilateral headache and nausea. Denied history of ocular trauma. Due to persistent and unrelieved symptoms, the patient presented to our hospital today. After relevant examinations in the outpatient clinic, the patient was admitted with a provisional diagnosis of \"1. Primary acute angle-closure glaucoma in the left eye; 2. Pseudophakia in both eyes.\" During the course of the illness, there was no fever or cough. Diet and sleep were poor, but bowel movements and urination were normal.\nPast Medical History and History of Surgery/Trauma: General condition: Usually in fair health. Denied history of chronic diseases such as diabetes and coronary heart disease; denied history of blood transfusion and trauma. Denied history of infectious diseases such as hepatitis, tuberculosis, bacillary dysentery, and typhoid fever. Vaccinations were completed on schedule. Denied history of allergy to sulfonamides, streptomycin, gentamicin, penicillin, food, cephalosporins, medications, or any known food allergies.\nSpecialty Examination Findings: Vod 0.4 Vos 0.1 IOP OD Tn OS T+2. Right eye: Conjunctiva without congestion, cornea transparent, anterior chamber peripherally shallow, aqueous humor clear, pupil round, diameter about 3mm, light reflex (+), lens turbid, fundus visible with retina in situ, no obvious hemorrhage or exudation. Left eye: Mixed conjunctival congestion (++), cornea turbid and edematous, subepithelial bullae, KP (-), anterior chamber shallow, peripheral anterior chamber <1/3 CT, aqueous flare (+), pupil round, diameter about 4mm, light reflex (+), lens turbid, fundus not visible.",
+        "DifferentialDiagnosis": "1. Acute iridocyclitis: Sudden onset of eye redness, eye pain, varying degrees of vision loss, intraocular pressure often not elevated, significant anterior chamber inflammatory reaction, pupil constricted and irregular in shape.\n2. Glaucomatocyclitic crisis: Patients are mostly young and middle-aged adults, intraocular pressure rises sharply, local irritation symptoms are mild, anterior chamber is not shallow, angle is open, and there are mutton-fat KPs on the posterior cornea."
+    },
+    "question": "Will my left eye age-related cataract require surgery in the future?",
+    "rewritten_questions": [
+        "What are the indications and timing for cataract surgery in elderly patients with age-related cataracts?"
+    ]
+}

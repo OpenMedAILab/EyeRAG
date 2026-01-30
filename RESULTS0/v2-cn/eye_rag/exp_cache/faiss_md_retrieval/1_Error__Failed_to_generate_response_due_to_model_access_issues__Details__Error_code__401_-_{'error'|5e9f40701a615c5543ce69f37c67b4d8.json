@@ -1,0 +1,26 @@
+{
+    "question_id": "1",
+    "context": [
+        {
+            "id": 0,
+            "source": "眼科人工智能临床应用伦理专家共识(2023) ",
+            "content": "## 3 眼科AI临床应用的伦理要求\n\n### 3.1 眼科AI模型建立的伦理要求\n\n#### 3.1.1 非AI要素的要求 在眼科AI模型设计和应用研究过程中，非AI相关要素的报告应遵循TRIPOD2015(Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis)指南[10]，该指南旨在确保设计和应用过程中重要信息报告的完整性及透明性。眼科AI模型设计和应用研究过程中，非AI相关要素的报告建议包含以下信息：（1）眼科AI模型参与者（应用对象）相关的信息，如参与者的适应证和禁忌证标准、一般特征等；（2）眼科AI模型中眼病评估结局指标的定义，包括其评估方法及评估时间；（3）眼科AI模型中所用的眼病相关评估因素的定义，包括其评估方法及评估时间；（4）眼科AI模型的开发流程、使用方法以及执行过程。\n\n#### 3.1.2 AI要素的要求 使用DL技术开发的眼科AI模型通常被称为“黑匣子”，与其相关的方法和报告极少。眼科AI模型的设计和应用过程中应遵循以下原则：（1)必须遵守眼科AI模型研究中已存在的方法标准，并对现有的眼科AI模型方法进行客观中立的评价和比较，选择适用于当前情况的最优临床标准；(2)基于AI或ML等技术开发的眼科AI模型在用于常规眼科医疗实践之前，必须针对不同情况进行适当的开发及评估，达不到临床要求的AI模型必须进行新模型的研发；(3)在现有证据的基础上，应当完整、透明地报告眼科AI模型研究的关键环节，以确保眼科AI模型关键环节的公开性和有效性[11]；(4)数据收集应当考虑数据采集、数据预处理、数据标注、数据集构建等活动的质控要求，以保证数据质量和算法设计质量。"
+        },
+        {
+            "id": 1,
+            "source": "中国视网膜下基因治疗药物注射术操作规范推荐专家共识(2022) ",
+            "content": "![](https://cdn-mineru.openxlab.org.cn/result/2025-11-26/beaa2a1f-477b-441a-93c8-44801e239fa9/fb11ef407d661c5d316582585eb5d0333ef9e05c6d57a1af5997cf4440abe33e.jpg)"
+        },
+        {
+            "id": 2,
+            "source": "无脉络膜症临床诊疗中国专家共识（2024年） ",
+            "content": "![](https://cdn-mineru.openxlab.org.cn/result/2025-11-26/8ed1a492-852c-4e08-8be8-58a48b3ba3b8/97cb06f3bf098576acce7388b30d9316491595d815aa2f79c16bf95335b28a10.jpg)\n\n![](https://cdn-mineru.openxlab.org.cn/result/2025-11-26/8ed1a492-852c-4e08-8be8-58a48b3ba3b8/b90dfc00c021fa256931416c8c459eed0a9337828e415644679a170bb513b3eb.jpg)\n\n![](https://cdn-mineru.openxlab.org.cn/result/2025-11-26/8ed1a492-852c-4e08-8be8-58a48b3ba3b8/628ea9c9160562d98845fcbef2e3f60ede7939446a094038b6d0039b05ede14a.jpg)"
+        }
+    ],
+    "query_top_k": 10,
+    "rerank_top_n": 3,
+    "query": "Error: Failed to generate response due to model access issues. Details: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}",
+    "index_name": "md-medical-guide-faiss-chunks",
+    "rerank_model": "bm25",
+    "embed_model": "openai:text-embedding-3-small"
+}

@@ -26,7 +26,7 @@ my_tool = Analyze(
         response_llm_names=response_llm_names,
         llm_answer_type=llm_answer_type,
 )
-question_ids = get_all_question_ids()[:3]
+question_ids = get_all_question_ids()[:2]
 
 my_tool.answer_question(question_ids=question_ids)
 

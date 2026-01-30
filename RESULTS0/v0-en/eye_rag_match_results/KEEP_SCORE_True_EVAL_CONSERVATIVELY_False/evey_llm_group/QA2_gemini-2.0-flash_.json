@@ -1,0 +1,18 @@
+[
+    {
+        "name": "LLM_Response",
+        "score": 10,
+        "ranking_llm": "gemini-2.0-flash",
+        "rank": 1,
+        "llm": "deepseek-chat",
+        "num_question": 2
+    },
+    {
+        "name": "LLM_NaiveRAG_Response",
+        "score": 10,
+        "ranking_llm": "gemini-2.0-flash",
+        "rank": 1,
+        "llm": "deepseek-chat",
+        "num_question": 2
+    }
+]

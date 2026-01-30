@@ -1,0 +1,26 @@
+{
+    "question_id": "1",
+    "context": [
+        {
+            "id": 0,
+            "source": "周边虹膜切除联合房角分离及房角切开术操作规范专家推荐意见 ",
+            "content": "[Key words] Primary angle-closure glaucoma; Minimally invasive glaucoma surgery; Surgical peripheral iridectomy; Goniosynechialysis; Goniotomy; Expert recommendation DOI:10.3760/cma.j.cn115989-20221127-00552\n\n青光眼是全球首位不可逆性致盲眼病，其致盲患者中约  $50\\%$  是原发性闭角型青光眼（primaryangle-closure glaucoma，PACG）。我国PACG患病率及致盲率均较高，全球约  $50\\%$  的PACG病例在我国[1-2]。手术是PACG的一线治疗方法，既往针对合并透明晶状体或没有白内障手术指征的中晚期PACG的首选手术方案是小梁切除术[3-4]，但小梁切除术并发症较多，如创口较大、浅前房、持续性低眼压、角膜内皮失代偿、眼内炎、恶性青光眼以及滤过泡相关并发症等[5]，也存在医师学习曲线长、术后需要长期的精细处理等问题。因此，临床工作中对于一些特殊情况，如年轻、具有恶性青光眼特征的PACG患者，既往通常采用虹膜周边切除术(surgical peripheral iridectomy，SPI)联合术后降眼压药物替代治疗[6-8]。"
+        },
+        {
+            "id": 1,
+            "source": "Leber遗传性视神经病变诊断和治疗专家共识 ",
+            "content": "### （四）干细胞治疗\n\n眼科疾病干细胞治疗研究(The Stem Cell Ophthalmology Treatment Study, SCOTS) 应用骨髓间充质干细胞 (bone marrow-derived stem cells, BMSC) 对 5 例 LHON 患者进行治疗，发现患者视敏度在EDTRS 表上增加至 35 个字母，在 Snellen 视力表上从手动改善至 0.1 以及从指数水平改善至 0.2，视野亦有改善，黄斑区和视盘周围 RNFL 厚度增加，且未见明显不良反应[61]。但干细胞治疗在 LHON 中的疗效及安全性尚需进一步研究证实。\n\n### （五）预后\n\n基于目前尚无特效疗法，LHON的视功能预后总体较差，BCVA多在0.1以下，部分患者在发病数月甚至数年以后，视功能可以部分恢复[62]，有报道发现个别患者视力可恢复至0.2甚至0.5以上[63-65]。该现象多发生在早期发病（尤其是20岁以前起病者[66]、缓慢进展[66]、OCT上提示RNFL较厚[67]及大视盘者[66,68]。不同突变位点的视力自发恢复率存在差异：m.11778G>A约为  $4\\% \\sim 25\\%$  ，m.14484T>C约为 $37\\% \\sim 70\\%$  ，m.3460G>A约为  $15\\% \\sim 40\\%$  [69-71]。罕见反复出现视力下降者[72]。"
+        },
+        {
+            "id": 2,
+            "source": "中国合并白内障的原发性青光眼手术治疗专家共识（2021年） ",
+            "content": "## 一、房角狭窄尚未粘连的原发性闭角型青光眼\n\n常见于原发性急性闭角型青光眼临床前期和部分原发性慢性闭角型青光眼早期，相当于国际地域性及眼科流行病学协会(International Society for Geographical and Epidemiological Ophthalmology, ISGEO)分类[6]中的可疑原发性房角关闭。此类患者宜尽早行Phaco+IOL以增宽房角。眼部、手术技术或其他条件不允许者，可按常规观察[7]或行激光周边虹膜切开术或周边虹膜切除术[8]。白内障摘除手术后应关注周边前房情况，对术后周边前房加深不明显、房角无明显增宽者，建议行超声活体显微镜检查，评估睫状体前位等非瞳孔阻滞因素。\n\n透明晶状体摘除术是否可以作为一线治疗方式仍有待进一步研究[9-10]。术前应谨慎评估术后风险。由于我国地域经济发展不平衡、医疗技术水平不一致，对于条件不成熟的眼科机构，不宜大规模推广透明晶状体摘除术。"
+        }
+    ],
+    "query_top_k": 10,
+    "rerank_top_n": 3,
+    "query": "What is the long-term prognosis for primary acute angle-closure glaucoma in the affected eye?",
+    "index_name": "md-medical-guide-faiss-chunks",
+    "rerank_model": "bm25",
+    "embed_model": "openai:text-embedding-3-small"
+}

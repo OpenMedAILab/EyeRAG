@@ -1,0 +1,42 @@
+[
+    {
+        "name": "LLM_HypotheticalRAG_Response",
+        "score": 100,
+        "ranking_llm": "deepseek-chat",
+        "rank": 1,
+        "llm": "deepseek-chat",
+        "num_question": 2
+    },
+    {
+        "name": "LLM_Response",
+        "score": 75,
+        "ranking_llm": "deepseek-chat",
+        "rank": 2,
+        "llm": "deepseek-chat",
+        "num_question": 2
+    },
+    {
+        "name": "LLM_NaiveRAG_Response",
+        "score": 59,
+        "ranking_llm": "deepseek-chat",
+        "rank": 3,
+        "llm": "deepseek-chat",
+        "num_question": 2
+    },
+    {
+        "name": "LLM_LightRAG_Hybrid_Distillation_Response",
+        "score": 23,
+        "ranking_llm": "deepseek-chat",
+        "rank": 4,
+        "llm": "deepseek-chat",
+        "num_question": 2
+    },
+    {
+        "name": "LLM_HierarchicalIndexRAG_Response",
+        "score": 22,
+        "ranking_llm": "deepseek-chat",
+        "rank": 5,
+        "llm": "deepseek-chat",
+        "num_question": 2
+    }
+]
