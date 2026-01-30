@@ -1,0 +1,79 @@
+# ============================================
+# EyeRAG 依赖包
+# pip install -r requirements.txt
+# ============================================
+
+# LLM 客户端
+openai>=1.0.0
+anthropic>=0.18.0
+google-generativeai>=0.5.0
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+langgraph>=0.0.20
+
+# DeepSeek & XAI
+langchain-deepseek>=0.1.0
+langchain-xai>=0.1.0
+# xai-sdk  # 如需要请取消注释
+
+# 向量数据库
+pinecone-client>=3.0.0
+chromadb>=0.4.0
+faiss-cpu>=1.7.0  # 或 faiss-gpu
+qdrant-client>=1.7.0
+nano-vectordb>=0.0.1
+
+# 图数据库
+neo4j>=5.0.0
+networkx>=3.0
+
+# Embedding & Rerank
+tiktoken>=0.5.0
+cohere>=4.0.0
+voyageai>=0.1.0
+
+# LlamaIndex
+llama-index>=0.10.0
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# HTTP & 异步
+aiohttp>=3.9.0
+aiofiles>=23.0.0
+httpx>=0.25.0
+requests>=2.31.0
+tenacity>=8.2.0
+
+# Web 框架 (LightRAG API)
+fastapi>=0.109.0
+uvicorn>=0.27.0
+starlette>=0.35.0
+pydantic>=2.0.0
+
+# 可视化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+
+# 图像处理
+Pillow>=10.0.0
+
+# 工具库
+python-dotenv>=1.0.0
+json-repair>=0.1.0
+
+# PyTorch (可选，用于本地模型)
+# torch>=2.0.0
+# transformers>=4.36.0
+
+# MongoDB & Redis (可选)
+# pymongo>=4.6.0
+# redis>=5.0.0
+
+# AWS (可选)
+# aioboto3>=12.0.0
