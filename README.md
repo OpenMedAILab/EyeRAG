@@ -6,16 +6,16 @@ EyeRAG is an advanced Retrieval-Augmented Generation (RAG) system designed speci
 
 - Multiple RAG methodologies: Naive RAG, Hypothetical Document Embeddings, Hierarchical Indexing, and LightRAG
 - Support for various LLM providers (OpenAI, Anthropic, Google Gemini, XAI, DeepSeek)
-- Integration with vector databases (ChromaDB, FAISS, Pinecone)
-- Graph-based knowledge representation
+- Integration with vector databases (FAISS, Pinecone)
 - Medical knowledge base focused on ophthalmology
+- Graph-based knowledge representation
 - Hybrid search capabilities combining chunk-based and knowledge graph retrieval
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/EyeRAG.git
+git clone https://github.com/OpenMedAILab/EyeRAG.git
 cd EyeRAG
 ```
 
@@ -31,6 +31,49 @@ cp .env.example .env
 
 Edit the `.env` file to add your API keys for the LLM providers you plan to use.
 
+## Usage
+
+### Basic Usage
+
+```python
+from eye_rag import EyeRAG
+
+# Initialize the system with your configuration
+eye_rag = EyeRAG(config_path="config.py")
+
+# Run queries against the knowledge base
+response = eye_rag.query("What are the treatment options for glaucoma?")
+print(response)
+```
+
+### Available RAG Methods
+
+- `NaiveRAG`: Traditional RAG approach
+- `HypotheticalRAG`: Hypothetical document embeddings approach
+- `HiRAG`: Hierarchical indexing approach
+- `LightRAG`: LightRAG hybrid approach with distillation
+
+## Project Structure
+
+```
+EyeRAG/
+├── eye_rag/                 # Main EyeRAG modules
+│   ├── graph/               # Graph-based RAG implementations
+│   ├── graph_node/          # Individual graph nodes
+│   ├── handle_results/      # Result processing utilities
+│   ├── qa/                  # Question answering components
+│   ├── rag/                 # RAG implementations
+│   ├── ranking/             # Ranking algorithms
+│   └── tools/               # Utility tools
+├── lightrag/                # LightRAG implementation
+├── Data/                    # Medical knowledge base data
+│   └── RAG/
+│       └── COS/             # Clinical ophthalmology guides
+├── config.py                # Configuration settings
+├── requirements.txt         # Dependencies
+└── README.md                # This file
+```
+
 ## Configuration
 
 The system is configured via the `config.py` file and environment variables in the `.env` file. Key configuration options include:
@@ -38,66 +81,28 @@ The system is configured via the `config.py` file and environment variables in t
 - LLM API keys and endpoints
 - Vector database settings
 - RAG methodology selection
-- Medical knowledge base source (currently supports COS and AAO_PPP)
-
-## Usage
-
-### Basic Usage
-
-```python
-from eye_rag import # Import the modules you need
-
-# Initialize the system with your configuration
-# Run queries against the knowledge base
-```
-
-### Available RAG Methods
-
-- `LLM_Response`: Direct LLM response without RAG
-- `LLM_NaiveRAG_Response`: Traditional RAG approach
-- `LLM_HypotheticalRAG_Response`: Hypothetical document embeddings
-- `LLM_HierarchicalIndexRAG_Response`: Hierarchical indexing approach
-- `LLM_LightRAG_Hybrid_Distillation_Response`: LightRAG hybrid approach
-
-## Project Structure
-
-```
-EyeRAG/
-├── eye_rag/          # Main EyeRAG modules
-│   ├── graph/        # Graph-related components
-│   ├── graph_node/   # Graph node definitions
-│   ├── handle_results/ # Result processing utilities
-│   ├── qa/           # Question answering components
-│   ├── rag/          # RAG implementations
-│   ├── ranking/      # Ranking algorithms
-│   ├── tools/        # Utility tools
-│   ├── eye_rag_utils.py # Utility functions
-│   └── llm.py        # LLM integration
-├── lightrag/         # LightRAG implementation
-├── config.py         # Configuration settings
-├── requirements.txt  # Dependencies
-└── README.md         # This file
-```
-
-## Environment Variables
-
-Copy `.env.example` to `.env` and fill in your API keys:
-
-```bash
-DEEPSEEK_API_KEY=your_deepseek_api_key
-OPENAI_API_KEY=your_openai_api_key
-GEMINI_API_KEY=your_gemini_api_key
-XAI_API_KEY=your_xai_api_key
-PINECONE_API_KEY=your_pinecone_api_key
-```
+- Medical knowledge base source
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
+We welcome contributions to EyeRAG! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
 
 ## License
 
-See [LICENSE](LICENSE) for licensing information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Citation
+
+If you use EyeRAG in your research, please cite:
+
+```
+@article{eyerag2025,
+  title={EyeRAG: Advanced Retrieval-Augmented Generation for Ophthalmology Knowledge Bases},
+  author={EyeRAG Contributors},
+  journal={Open Source Software},
+  year={2025}
+}
+```
 
 ## Acknowledgments
 
